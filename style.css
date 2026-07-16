@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    /* All useable elements in bill */
+    --primary-color: #49A4FF;
+    --secondary-color: #77588A;
+    --tertiary-color: #B1E6FC;
+    --Quaternary-color: #FBB4B5;
+    --Quinary-color: #79DFFD;
+    --Senary-color: #FF3636;
+    --Septenary-color: #0000FF;
+    --head-font: Arial, Helvetica, sans-serif;
+}
+body{
+    /*  form should be in center of page */
+    display:flex;
+    justify-content: center;
+    font-family: var(--head-font);
+}
+table{
+    /* Table necessary elements */
+    margin: 10px;
+    width: 70%;
+    border-collapse: collapse;
+    border-color: var(--secondary-color);
+}
+table thead{
+    height: 80px;
+ line-height: 1.4;
+}
+thead th{
+    padding: 10px 0px;
+    border: none;
+}
+thead img{
+    height: 60px;
+}
+thead, p{
+    color: var(--primary-color);
+    font-size: smaller;
+    text-transform: uppercase;
+    align-content: space-between;
+    font-weight: 800;
+}
+thead h2{
+    color: var(--secondary-color);
+    text-transform: uppercase;
+}
+tbody ,td{
+    font-size: smaller;
+    padding: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: smaller;
+}
+tbody .same-tr {
+    color: var(--secondary-color);
+    font-family:var(--head-font);
+    font-size: small;
+}
+.no-brder{
+    border: none;
+    color: var(--secondary-color)
+}
+.brder-diff{
+    border-bottom: none;
+}
+.font-clr{
+    padding: 3px;
+    font-weight:600;
+    font-size: small;
+    color: var(--secondary-color)
+}
+.blue-clr{
+    background-color: var(--tertiary-color);
+}
+.pink-clr{
+    background-color: var(--Quaternary-color);
+}
+.dblue-clr{
+    background-color: var(--Quinary-color) ;
+}
+.danger{
+    color: var(--Senary-color);
+    font-weight: 800;
+
+}
+.dark-blue-clr{
+    text-align: left;
+    color: var(--Septenary-color);
+    font-weight: 900;   
+}
+tbody ,td img{
+    height: 50%;
+    width:  80%;
+    padding: 0;
+}
